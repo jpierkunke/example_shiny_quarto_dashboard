@@ -98,10 +98,9 @@ Skills used in this dashboard:
     
 ## Row {height=60%}
 
-### Column {width=30%}
-
 ```{r}
 #| title: Water parameters over time, separate
+#| padding: 0px
 
 # plot each variable in its own facet/panel
 ggplot(combined.long, aes(x = Time, y = Value, color = Parameter)) +
@@ -113,9 +112,9 @@ ggplot(combined.long, aes(x = Time, y = Value, color = Parameter)) +
   theme(legend.position = "none")
 ```
 
-### {.sidebar width=20%}
-
 ```{r}
+#| content: card-sidebar
+
 checkboxGroupInput(
   inputId = "variable_choice",
   label = "Select plot variables:",
@@ -129,15 +128,18 @@ checkboxGroupInput(
   ),
   selected = c("pH", "Temperature (Celcius)") # default values
 )
-plotOutput("timeSeriesPlot")
 ```
-
-### Column {width=50%}
 
 ```{r}
 #| title: Water parameters over time, together
 #| fig-height: 10
 #| fig-width: 8
+#| padding: 0px
+
+plotOutput("timeSeriesPlot")
+```
+
+```{r}
 #| context: server
 
 output$timeSeriesPlot <- renderPlot({
@@ -158,7 +160,7 @@ output$timeSeriesPlot <- renderPlot({
 ```
 
 
-## Row {.tabset height=30%}
+## Row {.tabset height=40%}
 
 
 ```{r}

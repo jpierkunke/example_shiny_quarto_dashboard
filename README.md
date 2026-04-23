@@ -196,6 +196,8 @@ combined.long = pivot_longer(
   )
 ```
 
+```markdown
+
 # Introduction
 
 ::: {.card}

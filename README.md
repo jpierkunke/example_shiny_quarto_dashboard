@@ -36,14 +36,27 @@ R Shiny also requires using a service outside of GitHub to host your app. There 
 
 There are a lot of great resources on R Shiny, and it's important to get some familiarity with it before you try to incorporate it into your dashboard. Just keep in mind that it looks a little different when you incorporate it into a Quarto dashboard.
 
+You can find a great introduction for total Shiny beginners [on the Shiny website here](https://shiny.posit.co/getstarted.html). Then you can see [here in the Quarto dashboard documentation](https://quarto.org/docs/dashboards/interactivity/shiny-r.html) how to adapt R Shiny code when you are using it as part of a Quarto dashboard; make sure to click on the numbered circles along the right side of the code in the Walkthrough section to see their guidance on what each piece is doing.
+
+Keep in mind that mastering Shiny could be a whole course on its own! The purpose of this demo is to help get you started and point you to further resources.
+
 <a name="shiny-basics"/>
 
 ### Two basic components
+
+A Shiny app has two basic components:
+
+The user interface (ui) object controls the layout and appearance of your app.
+
+1. The user interface (ui) defines the specific number and [types of user inputs](https://shiny.posit.co/r/getstarted/shiny-basics/lesson3/) such as slider bars, checkboxes, or drop-down menus. It also defines the kinds of [reactive outputs](https://shiny.posit.co/r/getstarted/shiny-basics/lesson4/) in your dashboard/app, outputs that respond/update when the user provides/changes some input. The ui controls the app layout and appearance.
+2. The server code contains the code for what the app should do with the user inputs.
 
 
 <a name="shiny-resources"/>
 
 ### Further resources
+
+You can find so many resources for learning R Shiny [here](https://shiny.posit.co/r/articles/)!
 
 
 <a name="integrate"/>
@@ -54,7 +67,7 @@ There are a lot of great resources on R Shiny, and it's important to get some fa
 
 ### Where to put the user inputs in your dashboard
 
-You can add the user inputs (drop-down menus, text boxes, slidebars, and more) in three basic places in your dashboard:
+You can add the user inputs (drop-down menus, text boxes, slider bars, and more) in three basic places in your dashboard:
 
 1. Vertically along the left or right side of the whole page or of a row (this option is called a sidebar)
 2. Horizontally along the top or bottom of the whole page or of a column (this option is called a toolbar)

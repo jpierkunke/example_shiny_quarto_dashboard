@@ -12,6 +12,7 @@ Table of Contents:
     * [Where to put the user inputs in your dashboard](#integrate-where)
     * [Previewing your dashboard as you work on it](#integrate-preview)
     * [Deploying/publishing your dashboard online](#integrate-deploy)
+* [An example](#example)
 
 
 <a name="setup"/>
@@ -101,3 +102,10 @@ Note that deployment is a bit different for an R Shiny app ([see these instructi
 Before deployment, make sure you have installed the necessary packages and set up a shinyapps.io account as in the Setup section above.
 
 To deploy your dashboard, first click the "Run Document" button, then either click the "Publish" button or type `quarto::quarto_publish_app(server = "shinyapps.io")` into the Console.
+
+<a name="example"/>
+
+## An example
+
+This repo contains an example: the result of converting the static Quarto dashboard from [the example_quarto_dashboard repo](https://github.com/jpierkunke/example_quarto_dashboard) to a partially interactive dashboard using R Shiny and hosted on shinyapps.io.
+

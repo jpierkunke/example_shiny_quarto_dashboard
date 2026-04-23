@@ -60,7 +60,7 @@ The user interface (ui) object controls the layout and appearance of your app.
 - You can find so many resources for learning R Shiny [here](https://shiny.posit.co/r/articles/)!
 - You can find a great introduction for total Shiny beginners [on the Shiny website here](https://shiny.posit.co/getstarted.html). 
 - The first few Shiny apps in [this repository](https://github.com/tribalxg/PNWTCG2026_shiny_intro/) are a great hands-on intro.
-- You can see [here in the Quarto dashboard documentation](https://quarto.org/docs/dashboards/interactivity/shiny-r.html) how to adapt R Shiny code when you are using it as part of a Quarto dashboard; make sure to click on the numbered circles along the right side of the code in the Walkthrough section to see their guidance on what each piece is doing.
+- You can see [here in the Quarto dashboard documentation](https://quarto.org/docs/dashboards/interactivity/shiny-r.html) how to adapt R Shiny code when you are using it as part of a Quarto dashboard. Make sure to click on the numbered circles along the right side of the code in the Walkthrough section to see their guidance on what each piece is doing.
 
 <a name="integrate"/>
 

@@ -318,6 +318,7 @@ wq.stats = water.quality %>%
 kable(wq.stats)
 ```
 
+```markdown
 ::: {.card title="About these statistics"}
 These statistics summarize how many times temperature, pH, and DO are too high or too low over the course of the year.
 
@@ -325,7 +326,7 @@ These statistics summarize how many times temperature, pH, and DO are too high o
 - Low water temperatures might be too cold for species living in the water to tolerate. Low temperatures also reduce fish metabolic rates and can change invertebrate life cycles or disrupt natural food webs.
 :::
 
-```markdown
+
 
 # Summary and further resources {orientation="columns"}
 

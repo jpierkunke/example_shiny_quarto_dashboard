@@ -36,7 +36,7 @@ R Shiny also requires using a service outside of GitHub to host your app. There 
 
 There are a lot of great resources on R Shiny, and it's important to get some familiarity with it before you try to incorporate it into your dashboard. Just keep in mind that it looks a little different when you incorporate it into a Quarto dashboard.
 
-You can find a great introduction for total Shiny beginners [on the Shiny website here](https://shiny.posit.co/getstarted.html). Then you can see [here in the Quarto dashboard documentation](https://quarto.org/docs/dashboards/interactivity/shiny-r.html) how to adapt R Shiny code when you are using it as part of a Quarto dashboard; make sure to click on the numbered circles along the right side of the code in the Walkthrough section to see their guidance on what each piece is doing.
+You can find a great introduction for total Shiny beginners [on the Shiny website here](https://shiny.posit.co/getstarted.html). This Shiny intro is detailed; if you take the time to go start to finish, you will learn a lot, but (1) you might not have time within this course and (2) you might find other resources in combination with parts of this guide helpful, such as the first few Shiny apps in [this repository](https://github.com/tribalxg/PNWTCG2026_shiny_intro/). Then you can see [here in the Quarto dashboard documentation](https://quarto.org/docs/dashboards/interactivity/shiny-r.html) how to adapt R Shiny code when you are using it as part of a Quarto dashboard; make sure to click on the numbered circles along the right side of the code in the Walkthrough section to see their guidance on what each piece is doing.
 
 Keep in mind that mastering Shiny could be a whole course on its own! The purpose of this demo is to help get you started and point you to further resources.
 
@@ -51,6 +51,7 @@ The user interface (ui) object controls the layout and appearance of your app.
 1. The user interface (ui) defines the specific number and [types of user inputs](https://shiny.posit.co/r/getstarted/shiny-basics/lesson3/) such as slider bars, checkboxes, or drop-down menus. It also defines the kinds of [reactive outputs](https://shiny.posit.co/r/getstarted/shiny-basics/lesson4/) in your dashboard/app, outputs that respond/update when the user provides/changes some input. The ui controls the app layout and appearance.
 2. The server code contains the code for what the app should do with the user inputs.
 
+[This page of the Quarto documentation](https://quarto.org/docs/interactive/shiny/execution.html#render-server-contexts) summarizes how these two components work in a Quarto document.
 
 <a name="shiny-resources"/>
 
